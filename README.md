@@ -5,9 +5,9 @@
 Three short example scrapers targeting gmgn.ai wallet listing pages.
 
 Contents:
-- `scrapers/requests_scraper.py` — requests + BeautifulSoup (static)
-- `scrapers/selenium_scraper.py` — Selenium for JS-rendered pages
-- `scrapers/puppeteer_scraper.js` — Node.js + Puppeteer
+- `wallet-scrapers/requests_scraper.py` — requests + BeautifulSoup (static)
+- `wallet-scrapers/selenium_scraper.py` — Selenium for JS-rendered pages
+- `wallet-scrapers/puppeteer_scraper.js` — Node.js + Puppeteer
 
 **Reminder:** Update CSS selectors and target URLs to match the real site markup. Respect `robots.txt` and terms of service.
 
